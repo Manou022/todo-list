@@ -21,14 +21,14 @@ export default function Todo() {
       <div className={styles.todolist}>
         <div className={styles.head}>
           <span>#</span>
-          <span>Task Name</span>
+          <span>Name</span>
           <span>Status</span>
           <span>Edit</span>
           <span>Remove</span>
         </div>
         <div className={styles.listes}>
           <span>220</span>
-          <span>Send a Email</span>
+          <span className={styles.description}>Send a Email</span>
           <span className={styles.progress}>Finish</span>
           <span className={styles.btn}>
             <div className={styles.edit} onClick={() => setEtatEdit(true)}>
@@ -47,7 +47,7 @@ export default function Todo() {
           <span>Write blog post</span>
           <span className={styles.progress}>Finish</span>
           <span className={styles.btn}>
-            <div className={styles.edit}>
+            <div className={styles.edit} onClick={() => setEtatEdit(true)}>
               <Image src={edit} alt="" className={styles.img} />
             </div>
           </span>
