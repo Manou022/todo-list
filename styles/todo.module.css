@@ -1,0 +1,116 @@
+.container {
+  /* min-width: 50rem; */
+  font-family: sans-serif;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+}
+.titre h3 {
+  font-weight: 0.5rem;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 1px;
+}
+.add {
+  padding-bottom: 0.8rem;
+}
+.add button {
+  color: rgb(255, 252, 252);
+  border: 1px solid #00abf0;
+  cursor: pointer;
+  background: #00abf0;
+  font-weight: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  transition: 0.5s;
+  width: 7.5rem;
+  height: 1.8rem;
+}
+.add button:hover {
+  background: #081b29;
+  border: 1px solid #00abf0;
+}
+.todolist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  gap: 6rem;
+  display: flex;
+  /* text-align: left; */
+  font-size: 1.3rem;
+  font-weight: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 43.75rem;
+  border-bottom: 1px solid #535353;
+}
+.listes {
+  gap: 6rem;
+  display: flex;
+  /* text-align: left; */
+  padding-top: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  width: 43.75rem;
+  border-bottom: 0.5px solid #535353;
+}
+.head span {
+  width: 100px;
+  max-width: 100px;
+}
+.listes span {
+  width: 100px;
+  max-width: 100px;
+}
+.edit,
+.delete {
+  background-color: red;
+  border-radius: 0.2rem;
+  width: max-content;
+  height: max-content;
+}
+
+.edit {
+  text-align: center;
+  width: 35px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 247, 255, 0.671);
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  /* transition: 0.3s; */
+}
+.delete {
+  width: 35px;
+  /* transition: 0.3s; */
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 1px solid#6c757d;
+}
+.btn .edit,
+.btn .delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding-top: 0.5rem;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(2, 2, 2);
+  background: rgb(0, 255, 221);
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}

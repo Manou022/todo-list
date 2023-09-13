@@ -1,0 +1,87 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #edededcb;
+  height: 100vh;
+  backdrop-filter: blur(0.4rem);
+}
+.container form {
+  display: flex;
+  justify-content: center;
+}
+.contenu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: #081b29;
+  color: #ededed;
+  font-family: sans-serif;
+  border-radius: 0.8rem;
+  padding: 1% 2% 2% 2%;
+}
+.contenu h3 {
+  text-align: center;
+  color: #fffff4;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.contenu label {
+  color: #fffff4;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.contenu .btn {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.btn button {
+  color: #fffff4;
+  /* font-weight: 300; */
+  font-size: 1.1rem;
+  border-radius: 0.46rem;
+  background: #00abf0;
+  border: 1px solid #081b29;
+  width: 5rem;
+  height: 2.25rem;
+  cursor: pointer;
+  transition: 0.5s;
+  letter-spacing: 0.03rem;
+}
+.btn button:hover {
+  color: #00abf0;
+  background-color: #081b29;
+  border: 1px solid #00abf0;
+}
+.contenu input {
+  height: 1.5rem;
+  width: 13rem;
+  border-radius: 0.18rem;
+  border: 1px solid #00abf0;
+  padding-left: 0.37rem;
+  font-size: 1rem;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ededed;
+  border-radius: 50%;
+  background: #00abf0;
+  border: 1px solid #081b29;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.close:hover {
+  color: #00abf0;
+  background-color: #081b29;
+  border: 1px solid #00abf0;
+}
+.centrer {
+  display: flex;
+  justify-content: center;
+}
